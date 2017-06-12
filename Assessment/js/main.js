@@ -30,11 +30,11 @@ Scope
 
 **************************************************************************************/
 
-//the function scopeThis() will run and return a console.log of "I'm a local variable"
-//the y var is not utilized within the function.
+the function scopeThis() will run and return a console.log of "I'm a local variable"
+the y var is not utilized within the function.
 
-//outside of the function var x and var y will be declared undefined because they are declared
-//inside the function and are local variables.
+outside of the function var x and var y will be declared undefined because they are declared
+inside the function and are local variables.
 
 
 
@@ -68,11 +68,11 @@ Hoisting
 ------------ ANSWER -------------------
 
 **************************************************************************************/
-  //the function warmUp will return the following values:
-  //console.log(x) will be returned as undefined since the var x has not been defined;
+  the function warmUp will return the following values:
+  console.log(x) will be returned as undefined since the var x has not been defined;
 
-  //however, since hoisting will move the function to the top, it should return a result 'for' foo
-  //as function hoisting
+  however, since hoisting will move the function to the top, it should return a result 'for' foo
+  as function hoisting
 
 
 
@@ -108,17 +108,17 @@ Warm up
 (function() {
   "use strict";
   const add = 2 + 2;
-  //console.log(add);
+  console.log(add);
 })();
-//console.log(add);
+console.log(add);
 /**************************************************************************************
 ------------ ANSWER -------------------
 
 **************************************************************************************/
 
-//inside the IFFE console.log(add) will return as 4.
+inside the IFFE console.log(add) will return as 4.
 
-//because it is a const, it can also be read outside the IFFE
+because it is a const, it can also be read outside the IFFE
 
 
 
