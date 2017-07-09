@@ -89,8 +89,8 @@ Date Object
 (function(today){
   "use strict";
   //YOUR CODE HERE
-  var todayIs = new Date();
-  var year = todayIs.getFullYear();
+ var todayIs = new Date();
+ var year = todayIs.getFullYear();
  var month = todayIs.getMonth() +1;
  var day = todayIs.getDate();
  todayIs = month + "/" + day + "/" + year;
